@@ -69,7 +69,7 @@
         "SUDO_USER": { 
              "description": "", 
              "value": "6123932615", 
-             "required": true 
+             "required": false
          }, 
        "OWNER_ID": { 
              "description": "", 
