@@ -63,7 +63,7 @@
        }, 
        "BOT_TOKEN10": { 
          "description": "", 
-         "value": "6459819996:AAGKe_W3bZb7tb_cUY90k5BH8H6COPDtm30", 
+         "value": "", 
          "required": true 
        }, 
         "SUDO_USER": { 
