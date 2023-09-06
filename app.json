@@ -23,7 +23,7 @@
        }, 
        "BOT_TOKEN2": { 
          "description": "", 
-         "value": "", 
+         "value": "6450493860:AAHRZtblyp1rmlmAO27Pr2IAi-8vLcb8e1Q", 
          "required": true 
        }, 
        "BOT_TOKEN3": { 
