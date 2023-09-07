@@ -23,7 +23,7 @@
        }, 
        "BOT_TOKEN2": { 
          "description": "", 
-         "value": "", 
+         "value": "6249183978:AAEImcFkZawvJpU_XKTKMNyYwlzTlk6y-hI", 
          "required": true 
        }, 
        "BOT_TOKEN3": { 
@@ -33,37 +33,37 @@
        }, 
        "BOT_TOKEN4": { 
          "description": "", 
-         "value": "6553070403:AAE1YPj14wcdbJzTMznamQiqlDTMMUbzG14", 
+         "value": "6541458221:AAEAnHDheuqfVnAYv8R25Tw5S508wjZcdUM", 
          "required": true 
        }, 
        "BOT_TOKEN5": { 
          "description": "", 
-         "value": "6249183978:AAEImcFkZawvJpU_XKTKMNyYwlzTlk6y-hI", 
+         "value": "6458625833:AAF4lgCIblQRUT7mkL1tE4lnbvxrVZjIPLM", 
          "required": true 
        }, 
        "BOT_TOKEN6": { 
          "description": "", 
-         "value": "6458625833:AAF4lgCIblQRUT7mkL1tE4lnbvxrVZjIPLM", 
+         "value": "6517899751:AAEwItM2fW53cWV4kRfm5sNLXBG3M9PwEEk", 
          "required": true 
        }, 
        "BOT_TOKEN7": { 
          "description": "", 
-         "value": "6517899751:AAEwItM2fW53cWV4kRfm5sNLXBG3M9PwEEk", 
+         "value": "6311429086:AAF4Tg1M9aS9leOYwTe3tL-7QfLuAQHqRek", 
          "required": true 
        }, 
        "BOT_TOKEN8": { 
          "description": "", 
-         "value": "6311429086:AAF4Tg1M9aS9leOYwTe3tL-7QfLuAQHqRek", 
+         "value": "6236741305:AAEomkiRHPiVNV9i9NcAf566aGdM2zGsSeA", 
          "required": true 
        }, 
        "BOT_TOKEN9": { 
          "description": "", 
-         "value": "6236741305:AAEomkiRHPiVNV9i9NcAf566aGdM2zGsSeA", 
+         "value": "6459819996:AAGKe_W3bZb7tb_cUY90k5BH8H6COPDtm30", 
          "required": true 
        }, 
        "BOT_TOKEN10": { 
          "description": "", 
-         "value": "", 
+         "value": "6450493860:AAHRZtblyp1rmlmAO27Pr2IAi-8vLcb8e1Q", 
          "required": true 
        }, 
         "SUDO_USER": { 
