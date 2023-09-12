@@ -10,8 +10,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 
 # VALUES REQUIRED FOR SPAMX
-API_ID = 20310034
-API_HASH = "e0d2c11f4ba291ce596868e73df87519"
+API_ID = 25899888
+API_HASH = "125b1d5e3277ab423dc98bbab94f9941"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -30,7 +30,7 @@ BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6123932615").split()))
 for x in ALTRON:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="6123932615"))
+OWNER_ID = int(getenv("OWNER_ID", default="6697540778"))
 SUDO_USERS.append(OWNER_ID)
 
 
