@@ -27,11 +27,11 @@ async def echo(event):
             user_id = reply_msg.sender_id
 
             if user_id in ALTRON:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ CODEX ᴏᴡɴᴇʀ.")
+                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ 𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ᴏᴡɴᴇʀ.")
             elif user_id == OWNER_ID:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
+                await event.reply("ɴᴏ, 𝗔𝗣𝗞𝗘 𝗙𝗔𝗧𝗛𝗘𝗥 𝗛𝗔𝗜 𝗬𝗘.")
             elif user_id in SUDO_USERS:
-                await event.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ.")
+                await event.reply("ɴᴏ, 𝗖𝗛𝗢𝗥 𝗗𝗘 𝗕𝗔𝗖𝗖𝗖𝗔𝗔𝗔 𝗛𝗔𝗜.")
             else:
                 try:
                     alt = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
@@ -79,7 +79,7 @@ async def rmecho(event):
             else:
                 await event.reply("» ᴇᴄʜᴏ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴅɪꜱᴀʙʟᴇᴅ !!")
         else:
-            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl}rmecho <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
+            await event.reply(f"𝗥𝗲𝗺𝗼𝘃𝗲 𝗘𝗰𝗵𝗼:\n  » {hl}rmecho <𝗝𝗔 𝗠𝗔𝗙 𝗞𝗜𝗬𝗔>")
 
 
 @X1.on(events.NewMessage(incoming=True))
