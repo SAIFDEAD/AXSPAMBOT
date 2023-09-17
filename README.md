@@ -1,17 +1,13 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
-  <h3 align="center"><b>[⚡☆ 𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆ 
-
- ➪ 𝗣ɨɳɠ: 342.2 ᴍs 
- ➪ 𝗨թƬɨмє: 12m:16s 
- ➪ ⩔єяនɨ០ɳ: v0.6⚡]</b></h1>  
+  <h3 align="center"><b>[⚡🇩𝜩Ⓐ︎🇩 ⚡]</b></h1>  
   
   <h4 align="center">  𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒</h4>  
   
-  <p align="center"><a href="https://Heart_Connection"><img src="https://graph.org/file/a5b4f18770caacd1cdc7c.jpg" width="400"></a></p>  
+  <p align="center"><a href="https://t.me/DAEDX_HELP"><img src="https://graph.org/file/f4e84fef88c1c848c138f.jpg" width="400"></a></p>  
   
   
   > ⭐️ Thanks to everyone for using this SPAM BOTS  
-   ❤️MASTER  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿  !  
+   ❤️MASTER ⚡🇩𝜩Ⓐ︎🇩 ⚡  !  
   
                 ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─  
   
@@ -24,9 +20,9 @@
   <h3 align="center">  
       ─「 𝐎𝐖𝐍𝐄𝐑 」─  
   
-     ⚡ 𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿⚡  
+     ⚡🇩𝜩Ⓐ︎🇩 ⚡  
   
   ⚔️𝚃𝙷𝙴 𝚄𝚂𝙴𝙵𝚄𝙻 & 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙱𝙾𝚃 ⚔️   
   
-  ❌─「 🇲𝗼𝗻𝘀𝘁𝗲𝗿 ✘ 𝐒𝐏𝐀𝐌 」─❌</b>  
+  ❌─「 ᴅᴇᴀᴅ   ✘ 𝐒𝐏𝐀𝐌 」─❌</b>  
   ━━━━━━━━━━━━━━━━━━━━━━━━
