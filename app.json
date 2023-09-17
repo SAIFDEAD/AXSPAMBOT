@@ -1,11 +1,11 @@
 { 
-     "name": "☆  𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆.", 
-     "logo": "https://graph.org/file/a5b4f18770caacd1cdc7c.jpg", 
+     "name": "☆ 🇩𝜩Ⓐ︎🇩  ☆.", 
+     "logo": "https://graph.org/file/f4e84fef88c1c848c138f.jpg", 
      "keywords": [ 
          "telegram", 
          "telethon", 
          "telegram-bot", 
-         "CoDeX", 
+         "Monster", 
          "SpamBots" 
      ], 
      "repository": "https://github.com/De1dMonster/_SPAMBOT1", 
@@ -68,7 +68,7 @@
        }, 
         "SUDO_USER": { 
              "description": "", 
-             "value": "6123932615", 
+             "value": "6697540778", 
              "required": false
          }, 
        "OWNER_ID": { 
@@ -100,4 +100,4 @@
              "url": "heroku/python" 
          } 
      ] 
- }
+       }
