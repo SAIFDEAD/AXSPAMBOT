@@ -9,9 +9,9 @@ from AltBots.data import ALTRON
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 
 
-# VALUES REQUIRED FOR SPAMX
-API_ID = 25899888
-API_HASH = "125b1d5e3277ab423dc98bbab94f9941"
+# VALUES REQUIRED FOR XBOTS
+API_ID = 18136872
+API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -27,10 +27,10 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default=None)
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default=None)
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default=None)
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6697540778").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="5518687442").split()))
 for x in ALTRON:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="6697540778"))
+OWNER_ID = int(getenv("OWNER_ID", default="5518687442"))
 SUDO_USERS.append(OWNER_ID)
 
 
