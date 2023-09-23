@@ -1,28 +1,29 @@
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
-  <h3 align="center"><b>[⚡🇩𝜩Ⓐ︎🇩 ⚡]</b></h1>  
-  
-  <h4 align="center">  𝐓𝐇𝐄 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒</h4>  
-  
-  <p align="center"><a href="https://t.me/DAEDX_HELP"><img src="https://graph.org/file/f4e84fef88c1c848c138f.jpg" width="400"></a></p>  
-  
-  
-  > ⭐️ Thanks to everyone for using this SPAM BOTS  
-   ❤️MASTER ⚡🇩𝜩Ⓐ︎🇩 ⚡  !  
-  
-                ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─  
-  
-  </h3>  
-  
-  
- <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/De1dMonster/_SPAMBOT1"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p> 
-  
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
-  <h3 align="center">  
-      ─「 𝐎𝐖𝐍𝐄𝐑 」─  
-  
-     ⚡🇩𝜩Ⓐ︎🇩 ⚡  
-  
-  ⚔️𝚃𝙷𝙴 𝚄𝚂𝙴𝙵𝚄𝙻 & 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙱𝙾𝚃 ⚔️   
-  
-  ❌─「 ᴅᴇᴀᴅ   ✘ 𝐒𝐏𝐀𝐌 」─❌</b>  
-  ━━━━━━━━━━━━━━━━━━━━━━━━
+<h1 align="center"><b>[⚡] 𝙏𝙝𝙚𝙓𝘽𝙤𝙩𝙨 [⚡]</b></h1>
+
+<h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
+
+<p align="center"><a href="https://t.me/PyXen"><img src="https://te.legra.ph/file/07d39b85c6cea32f15259.jpg" width="400"></a></p>
+
+
+> ⭐️ Thanks to everyone for using this op XBOTS. That is the greatest pleasure we have !
+
+
+# ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
+
+
+<details>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<br>
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/ItZxSTaR/XBOTS)
+
+</details>
+
+
+<details>
+<summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
+<br>
+
+<a href="https://t.me/TheAltron"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+
+</details>
