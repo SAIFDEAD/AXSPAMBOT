@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"☆ 𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ☆")
+        altron = await e.reply(f"» __ᴀʟᴛʀᴏɴ__")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"⚡ 𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿 ⚡\n» `{mp} ᴍꜱ`")
+        await altron.edit(f"__🤖 ᴘɪɴɢ__\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -127,4 +127,4 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» ⚡𐎓⃝🌺🇲𝗼𝗻𝘀𝘁𝗲𝗿❤‍🔥⃟⃚⃐ 🌿  cαղ αccҽss cօตตαղժ ⚡")
+        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
