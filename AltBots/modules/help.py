@@ -3,19 +3,19 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗠𝗢𝗡𝗦𝗧𝗘𝗥 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @DE1D_KILLER**"
+HELP_STRING = f"★ 𝙓𝘽𝙤𝙩𝙨 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @PyXen**"
 
 HELP_BUTTON = [
     [
-      Button.inline("✨ 𝐒𝐏𝐀𝐌 ✨", data="spam"),
-      Button.inline("⚡ Ʀαι∂ ⚡", data="raid")
+      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
+      Button.inline("• ʀᴀɪᴅ •", data="raid")
     ],
     [
-      Button.inline("💫 ៩✗ƬƦค 💫", data="extra")
+      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("🥃 ⓄƜ⩎៩Ʀ 🥃", "https://t.me/UDAAN2024_CHAT"),
-      Button.url("🛠️ sմթթօɾԵ 🛠️", "https://t.me/Saif_Dictator")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
     ]
   ]
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/a5b4f18770caacd1cdc7c.jpg",
+              "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -60,12 +60,12 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**DEAD**
+**© @PyXen**
 """
 
                  
 raid_msg = f"""
-**» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ𐎓⃝:**
+**» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
 𝗥𝗮𝗶𝗱: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.**
   1) {hl}raid <count> <username>
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**DEAD**
+**© @PyXen**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-**MONSTER**
+** © @PyXen**
 """                     
            
            
@@ -129,20 +129,20 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("⚡𝐒𝐏𝐀𝐌⚡", data="spam"),
-                Button.inline("🥃Ʀαι∂🥃", data="raid")
+                Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
+                Button.inline("• ʀᴀɪᴅ •", data="raid")
               ],
               [
-                Button.inline("💫៩✗ƬƦค💫", data="extra")
+                Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("⚡ⓄƜ⩎៩Ʀ⚡", "https://t.me/UDAAN2024_CHAT"),
-                Button.url("✨sմթթօɾԵ✨", "https://t.me/Saif_Dictator")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/TheAltron"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/AltronChats")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @DE1D_KILLER", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Altron Bots !! @DE1D_KILLER", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @DE1D_KILLER", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Altron Bots !! @DE1D_KILLER", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @PyXen", cache_time=0, alert=True)
