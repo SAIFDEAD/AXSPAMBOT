@@ -24,7 +24,7 @@ async def ping(e):
         altron = await e.reply(f"» __⚡🇩𝜩Ⓐ︎🇩 ⚡__")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__ɢᴀɴᴅ ᴍᴀɴᴇ ᴋᴀ sᴘᴇᴇᴅ 🤣🥵__\n» `{mp} ᴍꜱ`")
+        await altron.edit(f"__ɢᴀɴᴅ ᴍᴀʀɴᴇ ᴋᴀ sᴘᴇᴇᴅ 🤣🥵__\n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -113,7 +113,7 @@ async def addsudo(event):
             reply_msg = await event.get_reply_message()
             target = reply_msg.sender_id
         except:
-            await ok.edit("» ᴛᴀʜ ᴋᴀʀ ᴋᴇ ᴋᴀʀ !!")
+            await ok.edit("» ᴛᴀɢ ᴋᴀʀ ᴋᴇ ᴋᴀʀ !!")
             return
 
         if str(target) in sudousers:
