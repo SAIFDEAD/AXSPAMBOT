@@ -5,11 +5,12 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
+        Button.inline("🌺 ᴄᴏᴍᴍᴀɴᴅs 🌺", data="help_back"),
+        Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
     ],
     [
-        Button.url("🌼𝙲𝙷𝙰𝙽𝙽𝙴𝙻🌼", "https://t.me/DE1DSTORE"),
-        Button.url("🏵𝚂𝚄𝙿𝙿𝙾𝚃🏵 •", "https://t.me/SAIFHELPGC")
+        Button.url("🌼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🌼", "https://t.me/DE1DSTORE"),
+        Button.url("🏵 𝚂𝚄𝙿𝙿𝙾𝚃 🏵 •", "https://t.me/SAIFHELPGC")
     ],
     [
         Button.url("🌿 𝚁𝙴𝙿𝙾 🌿", "https://graph.org/file/1cec00803e0497f6794f3.mp4"),
@@ -35,7 +36,7 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [💖 🇩𝜩Ⓐ︎🇩 💖](https://t.me/Saif_Dictator)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [🇩𝜩Ⓐ︎🇩](https://t.me/Saif_Dictator)**\n\n"
         TEXT += f"» **ᴅᴇᴀᴅ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
