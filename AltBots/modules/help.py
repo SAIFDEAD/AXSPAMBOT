@@ -7,15 +7,16 @@ HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪ�
 
 HELP_BUTTON = [
     [
-      Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-      Button.inline("• ʀᴀɪᴅ •", data="raid")
+      Button.inline("💥 ꜱᴘᴀᴍ 💥", data="spam"),
+      Button.inline("✨ ʀᴀɪᴅ ✨", data="raid")
     ],
     [
-      Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+      Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
+      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DE1DSTORE"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/SAIFHELPGC")
+      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/DE1DSTORE"),
+      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/SAIFHELPGC")
     ]
   ]
 
@@ -129,15 +130,16 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("• ꜱᴘᴀᴍ •", data="spam"),
-                Button.inline("• ʀᴀɪᴅ •", data="raid")
+                Button.inline("💥 ꜱᴘᴀᴍ 💥", data="spam"),
+                Button.inline("✨ ʀᴀɪᴅ ✨", data="raid")
               ],
               [
-                Button.inline("• ᴇxᴛʀᴀ •", data="extra")
+                Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
+                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
               ],
                          
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DE1DSTORE"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/SAIFHELPGC")
+                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/DE1DSTORE"),
+                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/SAIFHELPGC")
             ],
           )
     else:
