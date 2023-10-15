@@ -108,7 +108,7 @@ async def pspam(event):
 async def hang(e):
     if e.sender_id in SUDO_USERS:
         if e.chat_id in GROUP:
-            await e.reply("» ꜱᴏʀʀʏ, ᴛʜɪꜱ ɪꜱ 🇩𝜩Ⓐ︎🇩 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
+            await e.reply("» 𝚂𝙾𝚁𝚁𝚈, 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙳𝙴𝙰𝙳 𝙿𝚁𝙾𝚃𝙴𝙲𝚃𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 ⚡✨.")
         else:
             try:
                 counter = int(e.text.split(" ", 2)[1])
