@@ -9,7 +9,7 @@ START_BUTTON = [
         Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
     ],
     [
-        Button.url("🌼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🌼", "https://t.me/DE1DSTORE"),
+        Button.url("🌼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🌼", "https://t.me/Dead_SupportChat"),
         Button.url("🏵 𝚂𝚄𝙿𝙿𝙾𝚃 🏵 •", "https://t.me/SAIFHELPGC")
     ],
     [
