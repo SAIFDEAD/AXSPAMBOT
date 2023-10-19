@@ -16,7 +16,7 @@ HELP_BUTTON = [
     ],
     [
       Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/DE1DSTORE"),
-      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/SAIFHELPGC")
+      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/Dead_SupportChat")
     ]
   ]
 
