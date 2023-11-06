@@ -6,15 +6,15 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 START_BUTTON = [
     [
         Button.inline("🌺 ᴄᴏᴍᴍᴀɴᴅs 🌺", data="help_back"),
-        Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+        Button.url("♨️ 𝙾𝚆𝙽𝙴𝚁 ♨️", "https://t.me/Saif_Dictator")
     ],
     [
-        Button.url("🌼 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🌼", "https://t.me/Dead_SupportChat"),
-        Button.url("🏵 𝚂𝚄𝙿𝙿𝙾𝚃 🏵 •", "https://t.me/SAIFHELPGC")
+        Button.url("⚔️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⚔️", "https://t.me/Dead_SupportChat"),
+        Button.url("💎 𝚂𝚄𝙿𝙿𝙾𝚃 💎 •", "https://t.me/SAIFHELPGC")
     ],
     [
-        Button.url("🌿 𝚁𝙴𝙿𝙾 🌿", "https://graph.org/file/1cec00803e0497f6794f3.mp4"),
-        Button.url("💘 𝙼𝚈 𝙿𝙰𝙿𝙰 💘", "https://t.me/Saif_Dictator")
+        Button.url("🦋 ᴍᴜsɪᴄ 🦋", "https://t.me/JIY1MUSICBOT"),
+        Button.url("🛡 ᴍᴀɴᴇɢᴇʀ 🛡", "https://t.me/DICMANAGEBOT")
     ]
 ]
 
