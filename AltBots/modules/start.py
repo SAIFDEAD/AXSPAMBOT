@@ -9,12 +9,12 @@ START_BUTTON = [
         Button.url("♨️ 𝙾𝚆𝙽𝙴𝚁 ♨️", "https://t.me/Saif_Dictator")
     ],
     [
-        Button.url("⚔️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ⚔️", "https://t.me/Dead_SupportChat"),
-        Button.url("💎 𝚂𝚄𝙿𝙿𝙾𝚃 💎 •", "https://t.me/SAIFHELPGC")
+        Button.url(" 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/SAIFALLBOT"),
+        Button.url(" 𝚂𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/SAIFHELPGC")
     ],
     [
-        Button.url("🦋 ᴍᴜsɪᴄ 🦋", "https://t.me/JIY1MUSICBOT"),
-        Button.url("🛡 ᴍᴀɴᴇɢᴇʀ 🛡", "https://t.me/DICMANAGEBOT")
+        Button.url(" ᴍᴜsɪᴄ ", "https://t.me/INNOCENTMUSICBOT"),
+        Button.url(" ᴍᴀɴᴇɢᴇʀ ", "https://t.me/GROUP_MANAGER_PBOT")
     ]
 ]
 
