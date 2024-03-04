@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
+HELP_STRING = f"⚡ANSH ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Ansh_xD8**"
 
 HELP_BUTTON = [
     [
@@ -12,11 +12,11 @@ HELP_BUTTON = [
     ],
     [
       Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Ansh_xD8")
     ],
     [
-      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Dead_SupportChat"),
-      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/SAIFHELPGC")
+      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Ansh_xDz"),
+      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/THE_INDRAPRASTHA")
     ]
   ]
 
@@ -35,7 +35,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/4d811a985dedfe0cb135c.jpg",
+              "https://graph.org/file/33ed260fcfc79eb82838b.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -61,22 +61,22 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**WAIT FPR ANSH**
 """
 
                  
 raid_msg = f"""
 **» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
-𝗥𝗮𝗶𝗱: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴀɪᴅ ᴏɴ ᴀɴʏ ɪɴᴅɪᴠɪᴅᴜᴀʟ ᴜꜱᴇʀ ꜰᴏʀ ɢɪᴠᴇɴ ʀᴀɴɢᴇ.**
+𝗥𝗮𝗶𝗱: **AB RANDI KALPEGA.**
   1) {hl}raid <count> <username>
   2) {hl}raid <count> <reply to user>
 
-𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **ᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
+𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **BOLNE DE MADHER LAND KO.**
   1) {hl}rraid <replying to user>
   2) {hl}rraid <username>
 
-𝗗𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇꜱ ʀᴇᴘʟʏ ʀᴀɪᴅ ᴏɴ ᴛʜᴇ ᴜꜱᴇʀ.**
+𝗗𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **BACH GYA MADHERCHOD.**
   1) {hl}drraid <replying to user>
   2) {hl}drraid <username>
 
@@ -93,7 +93,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**⚡ANSH ⚡**
 """
 
 spam_msg = f"""
@@ -135,15 +135,15 @@ async def helpback(event):
               ],
               [
                 Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Ansh_xD8")
               ],
                          
-                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/DE1DSTORE"),
-                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/SAIFHELPGC")
+                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/Ansh_xDz"),
+                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/THE_INDRAPRASTHAC")
             ],
           )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Ansh_xD8r", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
