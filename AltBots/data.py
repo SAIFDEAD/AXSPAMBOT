@@ -125,11 +125,11 @@ RAID = [
 ALTRON = [6585111267]
 
 REPLYRAID = [
-    "MADARCHOD",
-    "BHOSDIKE",
-    "LAAAWEEE KE BAAAAAL",
-    "MAAAAR KI JHAAAAT KE BBBBBAAAAALLLLL",
-    "MADRCHOD..",
+    "ᴍᴀᴅᴀʀᴄʜᴏᴅ",
+    "ʙʜᴏsᴅɪᴋᴇ",
+    "ʟᴀᴀᴀᴡᴇᴇᴇ ᴋᴇ ʙᴀᴀᴀᴀᴀʟ",
+    "ᴍᴀᴀᴀᴀʀ ᴋɪ ᴊʜᴀᴀᴀᴀᴛ ᴋᴇ ʙʙʙʙʙᴀᴀᴀᴀᴀʟʟʟʟʟ",
+    "ᴍᴀᴅʀᴄʜᴏᴅ..",
     "TERI MA KI CHUT..",
     "LWDE KE BAAALLL.",
     "MACHAR KI JHAAT KE BAAALLLL",
@@ -137,7 +137,7 @@ REPLYRAID = [
     "TERI MA KA BHOSDAA",
     "TERI BHN SBSBE BDI RANDI.",
     "TERI MA OSSE BADI RANDDDDD",
-    "TERA BAAP CHKAAAA",
+    "ᴛᴇʀᴀ BAAP CHKAAAA",
     "KITNI CHODU TERI MA AB OR..",
     "TERI MA CHOD DI HM NE",
     "MIGHTY !!  BAAP BOLTE",
@@ -678,6 +678,9 @@ SRAID = [
     "कुछ ऐसे हस्दे ज़िन्दगी मैं होते है🤔🤔",
     "के इंसान तो बच जाता है मगर ज़िंदा नहीं रहता😂💓"
 ]
+
+
+RANDI = [ "AJA", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "HIJDE", "TERA", "BAAP", "HU", "KIDXX", "SPEED", "PAKAD", "BHEN KE LAUDE", "AA BETA", "AAGYA", "TERI", "MAA ", "CHODNE", "AB", "TERI ", "MAA", "CHUDEGI", "KUTTE", "KI", "TARAH", "BETA", "TERI", "MAA", "KE", "BHOSDE", "ME", "JBL", "KE", "SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI", "RAAT", "LAGATAR", "TERI", "MAA", "KE", "SATH", "SEX", "KARUNGA", "TERI", "MAA", "KE", "BOOBS","DABAUNGA","XXX","TERI","MAA","KAA","CHUT","MARU","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA","MARU","SUAR","KEE","CHODE","TERI","MAAA","KEEE","NUDES","BECHUNGA","RANDI","KEE","PILLE","TERI","MAAA","CHODU","SUAR","KEEE","PILEE","TERIII","MAAA","DAILYY","CHUDTTI","HAII","MADHARCHOD","AUKAT","BANAA","LODE","TERAA","BAAP","HUU","TERI","GFF","KAA","BHOSDAA","MARUU","MADHARCHOD","TERI ","NANAI","KAA","CHUTT","MARU","TERII","BEHEN","KAAA","BHOSDAA","MARU","RANDII","KEEE","CHODE","TERI","DADI","KAAA","BOOR","GARAM","KARR","TERE","PUREE","KHANDAN","KOOO","CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR","KEEE","PILLEE","NAAK","MEEE","NETAA","BAAP","KOO","KABHII","NAAH","BOLNAA","BETAA","CHUSS","LEEE","MERAA","LODAA","JAISE","ALUU","KAAA","PAKODAA","TERI","MAAA","BEHEN","GFF","NANI","DIIN","RAAT","SOTEE","JAGTEE","PELTAA","HUUU","LODEE","CHAAR","CHAWNII","GHODEE","PEEE","TUMM","MEREE","LODEE","PEE","TERI","MAA","KAAA","BOOBS","DABATA HU", "RANDI KE 14", "MC TERI MA KA CHUT"," TERI MA KE GAND ME SAIF KA LUND","TERI", "MAA", "KI", "CHUT", "ME", "RASSI", " DAAL", " KR ", "4-5 TERE JAISE GANDU KO", " CHUT K ANDR HI FASI DE DUNGA", " RANDI KI AULAD ", "GAY", " HOTA ", "TO ", "TERE ", "PAPA", " KA ", "GAND ", "MAAR", " K", " SUJA ", "DETA", " KHIR ", "TERE", " PAPA", " KI ", "GAND ", "BCH GAI", " LEKIN ", "TERI", " BEHEN", "RARRI ", "KI ", "CHUT", " DAILY", "SUJATA", " HU ", "MAIN", " ALLELE", " TERI", " MAA", " KI", " CHUT ", "ITNI ", "FTT", " GAI", " H", " KI ", "JHADU ", "KA ", "KAAM", " KRTI ", "H", " TERI ", "MAA", " KI", " CHUT ", "ROAD", " K ITTA", " PATTA", " TERE", " MAA", " KI ", "CHUT", " ME", " FASSE ", "HONGE", " NHI ", "VISWAS ", "TO ", "LEKE ", "AA", " TERI ", "MAA", " KI", " CHUT", " ME ", "LUND ", "GHUSA", " KAR", " HIL", "AUNGA ", "ITTA", " PATHAR", " NICHE ", "GIREGA ", "TERI ", "MAA", " KI ", "CHUT", " SIL", " DIYA", " HOTA", " LUND ", "PE ", "RASSI ", "LABET", " KR", " TO", "AAJ", " TERE ", "JAISA", " RANDI ", "SADDA ", "HUA", " MUUH", " LEKE ", "BHIKH", " NHI ", "MANGTA", " ROAD ", "PE ", "UFF", " MUUH ME", " LUND", " ATK", " GYA", " KYA", " BSS", " EK ", "HI AAWAJ NIKL RAHI H", " TUMHARI TUMHARI MAA KI CHUT ME", " 10 LUND H", " PHIR BHI AAH TK NHI KRTI H ", "UFFF RANDI KA KAMJOR BETA SHER ", " JHAT PE", " BANDH ", "KR ", "AISE GHUMA KAR FEKUNGA SAREE", "FAAD KR SIDHE TERI", "MAA KI CHUT ME GIROGE", "TERI", "MAA", " KI", "CHUT", "PE", " KUTTE ", "KI", " TATTI", " FRY", " KRNI", " H", " OR", "TUJHE ", "KHILANI", "H ", "JRA", "APN", "I MAA", "KI", "CHUT", "KO LEKR", " AA", "DEKHU", "HATH", "LGA", "K", "CHUT", "GRM H", "YA KISI NE RANDI BNA KE THNDA KAR RAKHA", "H", "RAND", "KI AULAD", "LUND KO DARU", "ME", "DUBA", "KAR", "TERI", "BEHEN", "KI", "MUUH", "ME", "LUND", "GHUSA", "DUNGA", " RANDI", "KO", "NASA", "CHADH", "JAYEGA", "GHUTKA", "KO", "JIBH", "PE", "RKH", "KAR", "TERI", "MAA", "KI", "CHUT", "PE", "AISA", "JIBH", "RAG", "DUNGA", "RANDI", "KI", "CHUT", "CHHIL", "JAYEGA ", "TU USI RANDI KA BETA H NA", "JIS RANDI KI", "CHUT GAJNI H", "JO", "BHUL", "JATI", "H", "BAAR", "BAAR", "KITNE", "LUND", "SE", "CHUD", "KR", "RANDI", "BNNI", "HAI", "#MAFIYA_OP  TERI MA KE GAND ME GHOPHII", "TERI MA KE GAND ME #DEAD_MAFIYA KA LUND "," TERI MA KA CHUT #MAFIYA NE CHODAA","TERI BHAN KE GAND ME #MAFIYA KA LUND", "TU #MAFIYA KA NJAYAJ AAULAD" ]
 
 
 CRAID = [
