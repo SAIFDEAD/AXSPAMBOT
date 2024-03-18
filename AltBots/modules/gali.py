@@ -5,9 +5,9 @@ from random import choice
 from telethon import events
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
-from AltBots.data import RANDI, ALTRON
+from AltBots.data import REPLYRAID, ALTRON
 
-RANDI = []
+REPLYRAID = []
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssaif(?: |$)(.*)" % hl))
@@ -45,7 +45,7 @@ async def saif(e):
                 counter = int(xraid[1])
                 username = f"[{first_name}](tg://user?id={uid})"
                 for _ in range(counter):
-                    reply = choice(RANDI)
+                    reply = choice(REPLYRAID)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
                     await asyncio.sleep(0.0)
