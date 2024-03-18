@@ -42,12 +42,13 @@ async def saif(e):
                 await e.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 .")
             else:
                 first_name = entity.first_name
+                counter = int(xraid[1])
                 username = f"[{first_name}](tg://user?id={uid})"
-                for
+                for _ in range(counter):
                     reply = choice(RANDI)
                     caption = f"{username} {reply}"
                     await e.client.send_message(e.chat_id, caption)
-                    await asyncio.sleep(0.1)
+                    await asyncio.sleep(0.0)
         except (IndexError, ValueError, NameError):
             await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐒ᴀɪғ\n  » {hl}sᴀɪғ <ᴄᴏᴜɴᴛ> <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}sᴀɪғ <ᴄᴏᴜɴᴛ> <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
         except Exception as e:
