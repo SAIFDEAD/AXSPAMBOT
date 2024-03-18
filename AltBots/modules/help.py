@@ -3,20 +3,20 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
+HELP_STRING = f"𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
 
 HELP_BUTTON = [
     [
-      Button.inline("💥 ꜱᴘᴀᴍ 💥", data="spam"),
-      Button.inline("✨ ʀᴀɪᴅ ✨", data="raid")
+      Button.inline(" 𝐒ᴘᴀᴍ", data="spam"),
+      Button.inline(" 𝐑ᴀɪᴅ ", data="raid")
     ],
     [
-      Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+      Button.inline(" 𝐄xᴛʀᴀ ", data="extra"),
+      Button.url("𝐎𝚆𝙽𝙴𝚁 ", "https://t.me/Saif_Dictator")
     ],
     [
-      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Dead_SupportChat"),
-      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/SAIFHELPGC")
+      Button.url(" 𝐂ʜᴀɴɴᴇʟ ", "https://t.me/Dead_SupportChat"),
+      Button.url("𝐒ᴜᴘᴘᴏʀᴛ ", "https://t.me/SAIFHELPGC")
     ]
   ]
 
@@ -35,7 +35,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/55a59e4434ad0eaeb47d5.jpg",
+              "https://graph.org/file/eb514f6d4b35027f8fe0b.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -48,7 +48,7 @@ extra_msg = f"""
 
 𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **ᴅᴇᴀᴅ sᴘᴀᴍ ʙᴏᴛ ᴄᴍᴅꜱ**
   1) {hl}ping 
-  2) {hl}reboot
+  2) {hl}stop
   3) {hl}sudo <reply to user>  --> Owner Cmd
   4) {hl}logs --> Owner Cmd
 
@@ -61,7 +61,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠  **
 """
 
                  
@@ -93,7 +93,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠**
 """
 
 spam_msg = f"""
@@ -110,7 +110,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**𝗗𝗘𝗔𝗗 𝗫 𝗦𝗣𝗔𝗠**
 """                     
            
            
@@ -130,16 +130,16 @@ async def helpback(event):
             HELP_STRING,
             buttons=[
               [
-                Button.inline("💥 ꜱᴘᴀᴍ 💥", data="spam"),
-                Button.inline("✨ ʀᴀɪᴅ ✨", data="raid")
+                Button.inline(" 𝗦ᴘᴀᴍ ", data="spam"),
+                Button.inline(" 𝗥ᴀɪᴅ ", data="raid")
               ],
               [
-                Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+                Button.inline(" 𝗘xᴛʀᴀ ", data="extra"),
+                Button.url(" 𝗢𝚆𝙽𝙴𝚁 ", "https://t.me/Saif_Dictator")
               ],
                          
-                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/DE1DSTORE"),
-                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/SAIFHELPGC")
+                Button.url("𝗖ʜᴀɴɴᴇʟ ", "https://t.me/DE1DSTORE"),
+                Button.url("𝗦ᴜᴘᴘᴏʀᴛ ", "https://t.me/SAIFHELPGC")
             ],
           )
     else:
