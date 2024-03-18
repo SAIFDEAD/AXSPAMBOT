@@ -51,6 +51,7 @@ extra_msg = f"""
   2) {hl}stop
   3) {hl}sudo <reply to user>  --> Owner Cmd
   4) {hl}logs --> Owner Cmd
+  5) {h1}saif -- One word gali spam
 
 𝗘𝗰𝗵𝗼: **ᴛᴏ ᴀᴄᴛɪᴠᴇ ᴇᴄʜᴏ ᴏɴ ᴀɴʏ ᴜꜱᴇʀ**
   1) {hl}echo <reply to user>
