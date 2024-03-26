@@ -21,10 +21,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"🇲𝗔𝗙𝗜𝗬𝗔 🇴𝗣")
+        altron = await e.reply(f"WANDERING 🇴𝗣")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"𝐊ʏα 𝐎яƉɛя 𝐇αι 𝐌αяɛ [𝐌αƨтɛя](https://t.me/SAIFALLBOT)")
+        await altron.edit(f"𝐊ʏα 𝐎яƉɛя 𝐇αι 𝐌αяɛ [𝐌αƨтɛя](https://t.me/Homosapienhu)")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"`ʀᴇsᴛᴀʀᴛɪɴɢ 𝙳𝙴𝙰𝙳 ʙᴏᴛ...`")
+        await e.reply(f"`ʀᴇsᴛᴀʀᴛɪɴɢ wanderings ʙᴏᴛ...`")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» __ᴀᴅᴅɪɴɢ ᴅᴇᴀᴅ sᴘᴀᴍ ʙᴏᴛ sᴜᴅᴏ....__")
+        ok = await event.reply(f"» __ᴀᴅᴅɪɴɢ wandering sᴘᴀᴍ ʙᴏᴛ sᴜᴅᴏ....__")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -117,13 +117,13 @@ async def addsudo(event):
             return
 
         if str(target) in sudousers:
-            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ ᴅᴇᴀᴅ sᴘᴀᴍ ʙᴏᴛ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
+            await ok.edit(f"ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀ wandering sᴘᴀᴍ ʙᴏᴛ ꜱᴜᴅᴏ ᴜꜱᴇʀ !!")
         else:
             if len(sudousers) > 0:
                 newsudo = f"{sudousers} {target}"
             else:
                 newsudo = f"{target}"
-            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ᴡᴀɪᴛ ᴋᴀʀ ʙʜᴀɪ ᴅᴇᴀᴅ ʙᴏᴛ sᴜʀᴜ ʜᴏ ʀʜᴀ ʜᴀɪ...`")
+            await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ᴡᴀɪᴛ ᴋᴀʀ ʙʜᴀɪ wandering ʙᴏᴛ sᴜʀᴜ ʜᴏ ʀʜᴀ ʜᴀɪ...`")
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
