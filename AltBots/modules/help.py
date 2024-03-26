@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"⚡🇩𝜩Ⓐ︎🇩 ⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Saif_Dictator**"
+HELP_STRING = f"⚡WANDERING BOT⚡ 𝗛𝗘𝗟𝗣 ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @homosapienhu**"
 
 HELP_BUTTON = [
     [
@@ -12,11 +12,11 @@ HELP_BUTTON = [
     ],
     [
       Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+      Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Homosapienhu")
     ],
     [
-      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Dead_SupportChat"),
-      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/SAIFHELPGC")
+      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/bkchr13"),
+      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/bkchr13")
     ]
   ]
 
@@ -35,7 +35,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/55a59e4434ad0eaeb47d5.jpg",
+              "https://graph.org/file/e05b411f49beafde2baf8.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -46,7 +46,7 @@ async def help(event):
 extra_msg = f"""
 **» ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
-𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **ᴅᴇᴀᴅ sᴘᴀᴍ ʙᴏᴛ ᴄᴍᴅꜱ**
+𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **wandering sᴘᴀᴍ ʙᴏᴛ ᴄᴍᴅꜱ**
   1) {hl}ping 
   2) {hl}reboot
   3) {hl}sudo <reply to user>  --> Owner Cmd
@@ -61,7 +61,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**⚡WANDERING SOUL⚡**
 """
 
                  
@@ -93,7 +93,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**⚡WANDERING SOUL⚡**
 """
 
 spam_msg = f"""
@@ -110,7 +110,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**⚡WANDERING SOUL⚡**
 """                     
            
            
@@ -135,15 +135,15 @@ async def helpback(event):
               ],
               [
                 Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Saif_Dictator")
+                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Homosapienhu")
               ],
                          
-                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/DE1DSTORE"),
-                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/SAIFHELPGC")
+                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/bkchr13"),
+                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/bkchr13")
             ],
           )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("phle baap bol wandering soul ko wo tumhe sudo de dega ☔ !! @homosapeinhu", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -162,7 +162,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("phle baap bol wandering soul ko wo tumhe sudo de dega ☔ !! @homosapienhu", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -181,7 +181,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("phle baap bol wandering soul ko wo tumhe sudo de dega ☔ !! @homosapienhu", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -200,4 +200,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("phle baap bol wandering soul ko wo tumhe sudo de dega ☔ !! @homosapienhu", cache_time=0, alert=True)
